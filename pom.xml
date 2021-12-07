@@ -15,7 +15,7 @@
 
 	<properties>
 		<!-- can't have arduino com working with other java version -->
-		<jdk.version>17</jdk.version>
+		<jdk.version>11</jdk.version>
 		<jodatime.version>2.5</jodatime.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
