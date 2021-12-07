@@ -11,12 +11,13 @@ public class Head extends AbstratGpio {
 	int cmdHead;
 	int currentPos = 95;
 	Context pi4j;
-	Pwm pwmHead = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_HEAD,"head"));
+	Pwm pwmHead;
 	long lastModified;
 	long period = 200;
 
 	public Head(Context pi4j) {
 		this.pi4j = pi4j;
+		pwmHead = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_HEAD,"head"));
 		pwmHead.on(currentPos, FREQUENCY);
 	}
 

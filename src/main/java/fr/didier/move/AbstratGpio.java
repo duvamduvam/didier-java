@@ -12,10 +12,16 @@ public class AbstratGpio {
 	protected static final int FIRST_CHAR_NB = 33;
 	protected static final int FREQUENCY = 50;
 
-	protected static PwmConfig buildPwmConfig(Context pi4j, int address, String name) {
-		return Pwm.newConfigBuilder(pi4j).id("BCM" + address).name(name).address(address).pwmType(PwmType.HARDWARE)
-				.provider("pigpio-pwm").initial(0).shutdown(0).build();
-	}
+    protected static PwmConfig buildPwmConfig(Context pi4j, int address, String name) {
+        return Pwm.newConfigBuilder(pi4j)
+            .id("BCM" + address)
+            .name(name)
+            .address(address)
+            .pwmType(PwmType.HARDWARE)
+            .initial(0)
+            .shutdown(0)
+            .build();
+    }
 
 	protected int mapRange(int a1, int a2, int b1, int b2, int s) {
 		return b1 + ((s - a1) * (b2 - b1)) / (a2 - a1);
