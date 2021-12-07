@@ -9,7 +9,7 @@ import fr.didier.utils.PropertiesUtil;
 
 public class Wheel extends AbstratGpio {
 
-	private static final int PIN_PWM_LEFT = 17;
+	private static final int PIN_PWM_LEFT = 13;
 	private static final int PIN_DIR_LEFT = 27;
 	private static final int PIN_PWM_RIGHT = 22;
 	private static final int PIN_DIR_RIGHT = 23;
