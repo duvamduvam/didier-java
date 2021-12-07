@@ -22,15 +22,15 @@ public class Wheel extends AbstratGpio {
 	long period = 200;
 
 	Context pi4j;
-
-	Pwm pwmLeft = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_LEFT, PwmType.HARDWARE, "wheel left"));
-	Pwm pwmRight = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_RIGHT, PwmType.SOFTWARE, "wheel right"));
-
-	DigitalOutput dirLeft = pi4j.dout().create(PIN_DIR_LEFT);
-	DigitalOutput dirRight = pi4j.dout().create(PIN_DIR_RIGHT);
+	Pwm pwmLeft, pwmRight;
+	DigitalOutput dirLeft, dirRight;
 
 	public Wheel(Context pi4j) {
 		this.pi4j = pi4j;
+		pwmLeft = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_LEFT, PwmType.HARDWARE, "wheel left"));
+		pwmRight = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_RIGHT, PwmType.SOFTWARE, "wheel right"));
+		dirLeft = pi4j.dout().create(PIN_DIR_LEFT);
+		dirRight = pi4j.dout().create(PIN_DIR_RIGHT);
 	}
 
 	public void update(String cmd) {
