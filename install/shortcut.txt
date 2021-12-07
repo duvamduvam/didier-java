@@ -1,0 +1,8 @@
+/etc/xdg/openbox/lxde-pi-rc.xml
+
+    <keybind key="C-A-R">
+      <action name="Execute">
+         <command>x-terminal-emulator -x /home/pi/rosita/rosita-java/scripts/rosita.sh</command>
+      </action>
+    </keybind>
+

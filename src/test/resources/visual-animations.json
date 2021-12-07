@@ -1,0 +1,24 @@
+{
+  "mouths" : {
+    "base" : {
+      "keys" : [ "A1", "A2" ],
+      "sequence" : [ {
+        "duration" : "10",
+        "visual" : "mouth-close"
+      }, {
+        "duration" : "10",
+        "visual" : "mouth-close2"
+      } ]
+    },
+    "speak" : {
+      "keys" : [ "A3" ],
+      "sequence" : [ {
+        "duration" : "10",
+        "visual" : "mouth-close"
+      }, {
+        "duration" : "10",
+        "visual" : "mouth-open"
+      } ]
+    }
+  }
+}

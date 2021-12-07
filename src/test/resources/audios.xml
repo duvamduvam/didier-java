@@ -1,0 +1,14 @@
+<xml>
+	<audio>
+		<id>1</id>
+		<file>/home/david/Nextcloud/rosita/audios/applause.mp3</file>
+	</audio>
+	<audio>
+		<id>2</id>
+		<file>/home/david/Nextcloud/rosita/audios/robot/lunettes.wav</file>
+	</audio>
+	<audio>
+		<id>3</id>
+		<file>/home/david/Nextcloud/rosita/audios/robot/manteau.wav</file>
+	</audio>
+</xml>

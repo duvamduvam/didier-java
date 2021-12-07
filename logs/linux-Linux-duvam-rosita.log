@@ -1,0 +1,58 @@
+2020-12-28 21:10:36 INFO  Rosita:65 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 21:10:36 INFO  Rosita:41 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 21:10:36 INFO  ArduinoComm:60 - linux port /dev/ttyACM0
+2020-12-28 21:10:36 INFO  ArduinoComm:87 - Could not find COM port
+2020-12-28 21:10:36 ERROR ArduinoComm:105 - can't reach arduino
+2020-12-28 21:10:37 INFO  VideoPlayer:69 - play video : videos/rbase.mp4
+2020-12-28 21:43:52 INFO  Rosita:65 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 21:43:52 INFO  Rosita:41 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 21:45:01 INFO  Rosita:65 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 21:45:01 INFO  Rosita:41 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 21:45:01 INFO  ArduinoComm:64 - linux port [/dev/ttyACM0]
+2020-12-28 21:45:34 INFO  Rosita:65 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 21:45:34 INFO  Rosita:41 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 21:45:54 INFO  ArduinoComm:64 - linux port [/dev/ttyACM0]
+2020-12-28 21:55:43 INFO  Rosita:63 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 21:55:43 INFO  Rosita:39 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 21:55:43 INFO  ArduinoComm:64 - linux port [/dev/ttyACM0]
+2020-12-28 21:55:43 INFO  VideoPlayer:69 - play video : videos/rbase.mp4
+2020-12-28 21:56:37 INFO  Rosita:63 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 21:56:37 INFO  Rosita:39 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 21:56:37 INFO  ArduinoComm:64 - linux port [/, d, e, v, /, t, t, y, A, C, M, 0, |, /, d, e, v, /, t, t, y, A, C, M, 1]
+2020-12-28 21:56:38 INFO  VideoPlayer:69 - play video : videos/rbase.mp4
+2020-12-28 21:58:25 INFO  Rosita:63 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 21:58:25 INFO  Rosita:39 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 21:58:25 INFO  ArduinoComm:64 - linux port [/dev/ttyACM0, /dev/ttyACM1]
+2020-12-28 21:58:25 INFO  VideoPlayer:69 - play video : videos/rbase.mp4
+2020-12-28 22:00:47 INFO  Rosita:63 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 22:00:47 INFO  Rosita:39 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 22:00:47 INFO  ArduinoComm:64 - linux port [/dev/ttyACM0, /dev/ttyACM1]
+2020-12-28 22:00:47 ERROR ArduinoComm:109 - no arduino found
+2020-12-28 22:00:47 INFO  VideoPlayer:69 - play video : videos/rbase.mp4
+2020-12-28 22:13:51 INFO  Rosita:63 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 22:13:51 INFO  Rosita:39 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 22:13:51 INFO  ArduinoComm:64 - linux port [/dev/ttyACM0, /dev/ttyACM1, /dev/ttyACM2]
+2020-12-28 22:13:51 ERROR ArduinoComm:109 - no arduino found
+2020-12-28 22:13:52 INFO  VideoPlayer:69 - play video : videos/rbase.mp4
+2020-12-28 22:15:29 INFO  Rosita:63 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 22:15:29 INFO  Rosita:39 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 22:15:36 INFO  ArduinoComm:64 - linux port [/dev/ttyACM0, /dev/ttyACM1, /dev/ttyACM2]
+2020-12-28 22:23:42 INFO  Rosita:63 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 22:23:42 INFO  Rosita:39 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 22:23:42 INFO  ArduinoComm:64 - linux port [/dev/ttyACM0, /dev/ttyACM1, /dev/ttyACM2]
+2020-12-28 22:23:42 INFO  VideoPlayer:69 - play video : videos/rbase.mp4
+2020-12-28 22:32:52 INFO  Rosita:63 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 22:32:52 INFO  Rosita:39 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 22:32:52 INFO  ArduinoComm:61 - linux port [/dev/ttyACM0, /dev/ttyACM1, /dev/ttyACM2]
+2020-12-28 22:32:52 INFO  VideoPlayer:69 - play video : videos/rbase.mp4
+2020-12-28 22:33:36 INFO  Rosita:63 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 22:33:36 INFO  Rosita:39 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 22:33:37 INFO  ArduinoComm:61 - linux port [/dev/ttyACM0, /dev/ttyACM1, /dev/ttyACM2]
+2020-12-28 22:34:20 INFO  Rosita:63 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 22:34:20 INFO  Rosita:39 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 22:34:20 INFO  ArduinoComm:61 - linux port [/dev/ttyACM0, /dev/ttyACM1, /dev/ttyACM2]
+2020-12-28 22:35:20 INFO  Rosita:63 - <<<<<<<<<<<<<<<<<<<<<<<<<<< START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2020-12-28 22:35:20 INFO  Rosita:39 - /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2020-12-28 22:35:20 INFO  ArduinoComm:61 - linux port [/dev/ttyACM0, /dev/ttyACM1, /dev/ttyACM2]
+2020-12-28 22:35:20 ERROR ArduinoComm:80 - no arduino found
+2020-12-28 22:35:20 INFO  VideoPlayer:69 - play video : videos/rbase.mp4

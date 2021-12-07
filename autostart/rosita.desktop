@@ -1,0 +1,9 @@
+
+# mkdir /home/pi/.config/autostart
+# ln -sf /home/pi/rosita/rosita-java/autostart/rosita.desktop /home/pi/.config/autostart/
+
+[Desktop Entry]
+Type=Application
+Name=Rosita
+Exec=/bin/bash /home/pi/rosita/rosita-java/scripts/rosita.sh
+X-GNOME-Autostart-enabled=true

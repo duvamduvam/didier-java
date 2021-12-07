@@ -1,0 +1,9 @@
+[ {
+  "keys" : [ "C1", " c" ],
+  "name" : "bonjour",
+  "extension" : "wav"
+}, {
+  "keys" : [ "C2", " " ],
+  "name" : "big-gig",
+  "extension" : "mp3"
+} ]
