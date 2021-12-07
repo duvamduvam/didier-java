@@ -9,10 +9,10 @@ import fr.didier.utils.PropertiesUtil;
 
 public class Wheel extends AbstratGpio {
 
-	private static final int PIN_PWM_LEFT = 13;
-	private static final int PIN_DIR_LEFT = 27;
-	private static final int PIN_PWM_RIGHT = 22;
-	private static final int PIN_DIR_RIGHT = 23;
+	private static final int PIN_PWM_LEFT = 23;
+	private static final int PIN_DIR_LEFT = 24;
+	private static final int PIN_PWM_RIGHT = 27;
+	private static final int PIN_DIR_RIGHT = 22;
 
 	private static final int INCREMENT_STEP = 2;
 	private static final int MAX_PWM_WHEEL = 50;
@@ -27,7 +27,7 @@ public class Wheel extends AbstratGpio {
 
 	public Wheel(Context pi4j) {
 		this.pi4j = pi4j;
-		pwmLeft = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_LEFT, PwmType.HARDWARE, "wheel left"));
+		pwmLeft = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_LEFT, PwmType.SOFTWARE, "wheel left"));
 		pwmRight = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_RIGHT, PwmType.SOFTWARE, "wheel right"));
 		dirLeft = pi4j.dout().create(PIN_DIR_LEFT);
 		dirRight = pi4j.dout().create(PIN_DIR_RIGHT);
