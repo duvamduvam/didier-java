@@ -96,17 +96,17 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.openjfx/javafx-media -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-media</artifactId>
 			<version>17.0.1</version>
-		</dependency>
+		</dependency>-->
 		<!-- https://mvnrepository.com/artifact/org.openjfx/javafx-swing -->
-		<dependency>
+		<!--  <dependency>
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-swing</artifactId>
 			<version>17.0.1</version>
-		</dependency>
+		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
 			<groupId>commons-io</groupId>
