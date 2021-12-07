@@ -2,6 +2,7 @@ package fr.didier.move;
 
 import com.pi4j.context.Context;
 import com.pi4j.io.pwm.Pwm;
+import com.pi4j.io.pwm.PwmType;
 
 import fr.didier.utils.PropertiesUtil;
 
@@ -17,7 +18,7 @@ public class Head extends AbstratGpio {
 
 	public Head(Context pi4j) {
 		this.pi4j = pi4j;
-		pwmHead = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_HEAD,"head"));
+		pwmHead = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_HEAD, PwmType.HARDWARE, "head"));
 		pwmHead.on(currentPos, FREQUENCY);
 	}
 
