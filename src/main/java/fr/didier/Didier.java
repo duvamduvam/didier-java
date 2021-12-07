@@ -29,10 +29,10 @@ public class Didier {
     Logger logger = LoggerFactory.getLogger(Didier.class);
 
 	
-	//Context pi4j = Pi4J.newAutoContext();
+	Context pi4j = Pi4J.newAutoContext();
     
     
-    Context pi4j = Pi4J.newContextBuilder()
+    /*Context pi4j = Pi4J.newContextBuilder()
     		   .add(new MockPlatform())
     		   .add(MockAnalogInputProvider.newInstance(),
     		      MockAnalogOutputProvider.newInstance(),
@@ -41,10 +41,10 @@ public class Didier {
     		      MockSerialProvider.newInstance(),
     		      MockI2CProvider.newInstance(),
     		      MockDigitalInputProvider.newInstance(),
-    		      MockDigitalOutputProvider.newInstance())
+    		      MockDigitalOutputProvider.newInstance())*/
     		   //.add(new MyCustomADCProvider(/* implements AnalogInputProvider, id="my-adc-prov" */))
     		   //.add(new MyCustomSPIProvider(/* implements SpiProvider, id="my-spi-prov" */))
-    		   .build();
+    		   //.build();
     
 	Head head = new Head(pi4j);
 	Wheel wheel = new Wheel(pi4j);
