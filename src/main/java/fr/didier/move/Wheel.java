@@ -23,7 +23,7 @@ public class Wheel extends AbstratGpio {
 
 	Context pi4j;
 
-	Pwm pwmLeft = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_LEFT, PwmType.SOFTWARE, "wheel left"));
+	Pwm pwmLeft = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_LEFT, PwmType.HARDWARE, "wheel left"));
 	Pwm pwmRight = pi4j.create(buildPwmConfig(pi4j, PIN_PWM_RIGHT, PwmType.SOFTWARE, "wheel right"));
 
 	DigitalOutput dirLeft = pi4j.dout().create(PIN_DIR_LEFT);
