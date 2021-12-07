@@ -6,7 +6,7 @@ import com.pi4j.io.pwm.Pwm;
 import fr.didier.utils.PropertiesUtil;
 
 public class Head extends AbstratGpio {
-	private static final int PIN_PWM_HEAD = 12;
+	private static final int PIN_PWM_HEAD = 18;
 	private static final int INCREMENT_STEP = 1;
 	int cmdHead;
 	int currentPos = 95;
