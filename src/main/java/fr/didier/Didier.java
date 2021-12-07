@@ -8,6 +8,12 @@ import org.slf4j.LoggerFactory;
 import com.pi4j.Pi4J;
 import com.pi4j.context.Context;
 import com.pi4j.library.pigpio.PiGpio;
+import com.pi4j.plugin.pigpio.provider.gpio.digital.PiGpioDigitalInputProvider;
+import com.pi4j.plugin.pigpio.provider.gpio.digital.PiGpioDigitalOutputProvider;
+import com.pi4j.plugin.pigpio.provider.i2c.PiGpioI2CProvider;
+import com.pi4j.plugin.pigpio.provider.pwm.PiGpioPwmProvider;
+import com.pi4j.plugin.pigpio.provider.serial.PiGpioSerialProvider;
+import com.pi4j.plugin.pigpio.provider.spi.PiGpioSpiProvider;
 
 import fr.didier.com.Rxtx;
 import fr.didier.lights.StripManager;
@@ -15,6 +21,7 @@ import fr.didier.move.Head;
 import fr.didier.move.Wheel;
 import fr.didier.python.PythonGateway;
 import fr.didier.sound.Sound;
+import fr.didier.utils.CrowPiPlatform;
 
 public class Didier {
 
@@ -22,8 +29,8 @@ public class Didier {
 
     final PiGpio piGpio = PiGpio.newNativeInstance();
     
-    Context pi4j = Pi4J.newAutoContext();
-	/*Context pi4j = Pi4J.newContextBuilder()
+    //Context pi4j = Pi4J.newAutoContext();
+	Context pi4j = Pi4J.newContextBuilder()
             .noAutoDetect()
             .add(new CrowPiPlatform())
             .add(
@@ -34,7 +41,7 @@ public class Didier {
                 PiGpioSerialProvider.newInstance(piGpio),
                 PiGpioSpiProvider.newInstance(piGpio)
             )
-            .build();*/
+            .build();
     
     
     /*Context pi4j = Pi4J.newContextBuilder()
